@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "age": 20,
+    "gender": "Male",
+    "course": "B.Tech CSE",
+    "year": 2,
+    "email": "aarav.sharma@example.com",
+    "phone": "9876543210",
+    "city": "Delhi"
+  },
+  {
+    "id": 2,
+    "name": "Priya Verma",
+    "age": 19,
+    "gender": "Female",
+    "course": "B.Tech IT",
+    "year": 1,
+    "email": "priya.verma@example.com",
+    "phone": "9876543211",
+    "city": "Lucknow"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Singh",
+    "age": 21,
+    "gender": "Male",
+    "course": "BCA",
+    "year": 3,
+    "email": "rohan.singh@example.com",
+    "phone": "9876543212",
+    "city": "Kanpur"
+  },
+  {
+    "id": 4,
+    "name": "Ananya Gupta",
+    "age": 20,
+    "gender": "Female",
+    "course": "B.Tech AI",
+    "year": 2,
+    "email": "ananya.gupta@example.com",
+    "phone": "9876543213",
+    "city": "Noida"
+  },
+  {
+    "id": 5,
+    "name": "Vikram Patel",
+    "age": 22,
+    "gender": "Male",
+    "course": "MCA",
+    "year": 1,
+    "email": "vikram.patel@example.com",
+    "phone": "9876543214",
+    "city": "Ahmedabad"
+  },
+  {
+    "id": 6,
+    "name": "Sneha Joshi",
+    "age": 21,
+    "gender": "Female",
+    "course": "B.Sc Computer Science",
+    "year": 3,
+    "email": "sneha.joshi@example.com",
+    "phone": "9876543215",
+    "city": "Pune"
+  },
+  {
+    "id": 7,
+    "name": "Aditya Mishra",
+    "age": 20,
+    "gender": "Male",
+    "course": "B.Tech ECE",
+    "year": 2,
+    "email": "aditya.mishra@example.com",
+    "phone": "9876543216",
+    "city": "Varanasi"
+  },
+  {
+    "id": 8,
+    "name": "Neha Kapoor",
+    "age": 19,
+    "gender": "Female",
+    "course": "BBA",
+    "year": 1,
+    "email": "neha.kapoor@example.com",
+    "phone": "9876543217",
+    "city": "Chandigarh"
+  },
+  {
+    "id": 9,
+    "name": "Karan Mehta",
+    "age": 22,
+    "gender": "Male",
+    "course": "MBA",
+    "year": 2,
+    "email": "karan.mehta@example.com",
+    "phone": "9876543218",
+    "city": "Jaipur"
+  },
+  {
+    "id": 10,
+    "name": "Pooja Yadav",
+    "age": 20,
+    "gender": "Female",
+    "course": "B.Tech CSE",
+    "year": 2,
+    "email": "pooja.yadav@example.com",
+    "phone": "9876543219",
+    "city": "Ghaziabad"
+  }
+]

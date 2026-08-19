@@ -1,0 +1,21 @@
+{
+  "name": "httpmodule",
+  "version": "1.0.0",
+  "description": "\"Backend project\"",
+  "keywords": [],
+  "homepage": "https://github.com/Princedubeeyy/CSE-25-BACKEND#readme",
+  "bugs": {
+    "url": "https://github.com/Princedubeeyy/CSE-25-BACKEND/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Princedubeeyy/CSE-25-BACKEND.git"
+  },
+  "license": "ISC",
+  "author": "\"Prince Dubey\"",
+  "type": "commonjs",
+  "main": "Day2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

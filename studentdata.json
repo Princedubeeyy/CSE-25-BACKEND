@@ -1,0 +1,83 @@
+
+[
+  {
+    "id": 1,
+    "name": "Prince Dubey",
+    "age": 20,
+    "gender": "Male",
+    "course": "B.Tech Computer Science",
+    "year": 2,
+    "email": "prince@example.com",
+    "marks": 85
+  },
+  {
+    "id": 2,
+    "name": "Rahul Sharma",
+    "age": 21,
+    "gender": "Male",
+    "course": "B.Tech Information Technology",
+    "year": 3,
+    "email": "rahul@example.com",
+    "marks": 78
+  },
+  {
+    "id": 3,
+    "name": "Ananya Singh",
+    "age": 20,
+    "gender": "Female",
+    "course": "B.Tech Computer Science",
+    "year": 2,
+    "email": "ananya@example.com",
+    "marks": 92
+  },
+  {
+    "id": 4,
+    "name": "Aman Verma",
+    "age": 22,
+    "gender": "Male",
+    "course": "B.Tech Electronics",
+    "year": 4,
+    "email": "aman@example.com",
+    "marks": 81
+  },
+  {
+    "id": 5,
+    "name": "Priya Gupta",
+    "age": 21,
+    "gender": "Female",
+    "course": "B.Tech Computer Science",
+    "year": 3,
+    "email": "priya@example.com",
+    "marks": 89
+  },
+  {
+    "id": 6,
+    "name": "Rohan Kumar",
+    "age": 20,
+    "gender": "Male",
+    "course": "B.Tech Mechanical Engineering",
+    "year": 2,
+    "email": "rohan@example.com",
+    "marks": 74
+  },
+  {
+    "id": 7,
+    "name": "Neha Mishra",
+    "age": 22,
+    "gender": "Female",
+    "course": "B.Tech Information Technology",
+    "year": 4,
+    "email": "neha@example.com",
+    "marks": 95
+  },
+  {
+    "id": 8,
+    "name": "Arjun Patel",
+    "age": 21,
+    "gender": "Male",
+    "course": "B.Tech Civil Engineering",
+    "year": 3,
+    "email": "arjun@example.com",
+    "marks": 76
+  }
+]

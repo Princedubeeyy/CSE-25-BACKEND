@@ -1,0 +1,47 @@
+GITHUB Commands:
+
+Initial Repo commit:
+1- git init
+2- git add .
+3- git commit -m "comment"
+4- git remote add origin "URL"
+5- git push
+
+Additional commands:
+*git status* - to check the staged file status
+*git remote -v* - to check the origin set status
+
+Mandatory commands to push(commit) files:
+1- *git add .*
+2- *git commit -m "comment"*
+3- *git push*
+
+Command to set upstream 
+*git push --set-upstream origin branch_name*
+
+Why do we use *git pull*?
+to fetch all the additional files and data from the remote that has not been updated in local.
+
+Brach and merge:
+
+to list all branch of local & remote:
+*git branch -a*
+
+to create new branch:
+*git branch branch_name*
+
+to change the branch head(pointer):
+*git checkout branch_name*
+
+to push new branch code
+*git push origin branch_name*
+
+to delete local branch 
+*git branch -d branch_name*
+
+to delete remote branch
+*git push origin --delete branch_name*
+
+Cloning is a process that fetches all files and folders from a Remote Location to a local one, preserving the origin URL intact. This allows the person who cloned the code to push it to the repository by committing.
+run command to clone, on any terminal, opening  it on any known path
+*git clone URL*

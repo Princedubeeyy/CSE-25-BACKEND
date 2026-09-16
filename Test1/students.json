@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Prince Dubey",
+    "roll": "101",
+    "course": "B.Tech CSE",
+    "email": "prince@example.com"
+  },
+  {
+    "name": "Rahul Sharma",
+    "roll": "102",
+    "course": "B.Tech CSE",
+    "email": "rahul@example.com"
+  }
+]
+

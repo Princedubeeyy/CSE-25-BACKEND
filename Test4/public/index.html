@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campus Help Desk</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Student Services</p>
+          <h1>Campus Help Desk</h1>
+        </div>
+      </header>
+
+      <main class="container">
+        <section class="panel form-panel">
+          <div class="panel-header">
+            <h2>Submit a Request</h2>
+            <span class="status-pill">Live</span>
+          </div>
+
+          <form id="requestForm">
+            <input type="hidden" id="requestId" />
+
+            <div class="form-grid">
+              <div class="form-row">
+                <label for="studentName">Student Name</label>
+                <input id="studentName" name="studentName" type="text" placeholder="Enter full name" required />
+              </div>
+
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="student@campus.edu" required />
+              </div>
+
+              <div class="form-row">
+                <label for="category">Category</label>
+                <select id="category" name="category" required>
+                  <option value="">Select a category</option>
+                  <option value="Academic">Academic</option>
+                  <option value="Facilities">Facilities</option>
+                  <option value="IT Support">IT Support</option>
+                  <option value="Finance">Finance</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <label for="priority">Priority</label>
+                <select id="priority" name="priority" required>
+                  <option value="">Select priority</option>
+                  <option value="Low">Low</option>
+                  <option value="Medium">Medium</option>
+                  <option value="High">High</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row full-width">
+              <label for="problemDescription">Problem Description</label>
+              <textarea id="problemDescription" name="problemDescription" rows="5" placeholder="Describe the issue in detail" required></textarea>
+            </div>
+
+            <div class="button-row">
+              <button type="submit" id="submitButton">Submit Request</button>
+              <button type="button" id="cancelEdit" class="secondary hidden">Cancel</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="panel requests-panel">
+          <div class="panel-header">
+            <h2>Submitted Requests</h2>
+            <span id="requestCount" class="request-count">0 items</span>
+          </div>
+          <div id="requestList" class="request-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
